@@ -9,6 +9,10 @@
 #Test your program with different example inputs, and comment your code. 
 
 def camelCase(str):
+    # if input contains number 
+    if str.isdigit():
+        print('Invalid input - contains a number')
+        return
     
     words = str.split()
     #print(words)
@@ -23,3 +27,4 @@ def camelCase(str):
 #calling the function with various inputs
 camelCase('my cats are acadia and zion')
 camelCase('it is really hot today')
+camelCase('1234')
