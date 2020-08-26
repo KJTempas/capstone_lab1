@@ -1,19 +1,21 @@
 from datetime import datetime
 
-name = input("Enter your name: ")
-bday_month = input("In what month were you born? ")
-if bday_month.lower() == 'august':
-    print(f'Happy birthday {name.title()}!.  Your name is {len(name)} characters long.')
-else:
-    print(f'Hello {name.title()}!  Your name is {len(name)} characters long.')
+# name = input("Enter your name: ")
+# bday_month = input("In what month were you born? ")
+# if bday_month.lower() == 'august':
+#     print(f'Happy birthday {name.title()}!.  Your name is {len(name)} characters long.')
+# else:
+#     print(f'Hello {name.title()}!  Your name is {len(name)} characters long.')
 
-
+#alt method using functions-not quite working
 # def main():
 #     name = input("Enter your name: ")
 #     bday_month = input("In what month were you born? ")
 #     current_month = get_current_month #calling function below and returning
-#     #if compare_case_insensitive(bday_month, current_month):
-#         print(f'Happy Birthday month {name}!')
+#     if compare_case_insensitive(bday_month, current_month):
+#         print(f'Happy Birthday month {name}!  Your name has {len(name)} characters.')
+#     else:
+#         print(f'Happy Birthday month {name}!  Your name has {len(name)} characters.')
 
 # def get_current_month():
 #     today = datetime.today()
